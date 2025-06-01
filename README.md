@@ -1,6 +1,6 @@
 # WsBuddy
 
-WsBuddy is a personal project I built to experiment with WhatsApp automation and AI-powered chat agents. The goal is to create a smart WhatsApp agent that can chat, remember conversations, process images and voice, and even generate content.
+WsBuddy is a project I built to experiment with WhatsApp automation and AI-powered chat agents. The goal is to create a smart WhatsApp agent that can chat, remember conversations, process images and voice, and even generate content. It uses a combination of AI models, a vector database for memory, and a simple chat interface to provide a seamless user experience. I developed this project using the Neural Maze blogs and videos as a guide, which you can find [here](https://github.com/neural-maze/).
 
 ## Features
 
@@ -22,7 +22,7 @@ WsBuddy is a personal project I built to experiment with WhatsApp automation and
 2. **Set up your environment:**
    - Create a virtual environment:
      ```
-     python -m venv venv
+     uv venv
      ```
    - Activate it:
      ```
@@ -30,7 +30,7 @@ WsBuddy is a personal project I built to experiment with WhatsApp automation and
      ```
    - Install dependencies:
      ```
-     pip install -r requirements.txt
+    uv sync
      ```
 
 3. **Configure environment variables:**
@@ -56,7 +56,7 @@ MIT License
 
 ## Author
 
-- [Your Name](https://github.com/Yuval728)
+- [Yuval Mehta](https://github.com/Yuval728)
 
 ---
 
